@@ -1,0 +1,16 @@
+{
+  "dev": {
+    "driver": "pg",
+    "host": "127.0.0.1",
+    "database": "storefront_backend",
+    "user": "storefront_backend_user",
+    "password": "password123"
+  },
+  "test": {
+    "driver": "pg",
+    "host": "127.0.0.1",
+    "database": "storefront_backend_test",
+    "user": "storefront_backend_test_user",
+    "password": "password123"
+  }
+}
