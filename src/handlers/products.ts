@@ -33,6 +33,7 @@ const readAll = async (_req: Request, res: Response) => {
     res.json(products);
   } catch (err) {
     res.status(400);
+    console.log(JSON.stringify(err));
     res.json(err);
   }
 }
