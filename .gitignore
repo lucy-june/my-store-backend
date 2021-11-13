@@ -2,3 +2,6 @@ node_modules
 *.env
 *.database.json
 dist
+.project
+.settings/
+npm-debug.log
