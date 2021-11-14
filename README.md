@@ -1,3 +1,6 @@
+# To run this backend in background:
+$ nohup npm run start &
+
 # Storefront Backend Project
 
 ## Getting Started
