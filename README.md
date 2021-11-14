@@ -1,5 +1,15 @@
-# To run this backend in background:
+# To run this backend
+$ npm run start
+
+# To run this backend in background
 $ nohup npm run start &
+
+# To backfill the testing data in database.
+Create a postgresql db with the following information.
+-POSTGRES_TEST_DB=storefront_backend_test
+-POSTGRES_TEST_USER=storefront_backend_test_user
+-POSTGRES_PASSWORD=password123
+Use pgAdmin4 (postgresql client UI) connect to the db and right click on schema "public", and restore the testing data from the latest migrations/sqls/mystore_db_*.backup.
 
 # Storefront Backend Project
 
