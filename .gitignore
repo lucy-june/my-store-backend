@@ -4,3 +4,4 @@ dist
 .project
 .settings/
 npm-debug.log
+package-lock.json
